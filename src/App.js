@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Greetings from './components/pure/greetings';
 import GreetingFunction from './components/pure/greetingFunction';
+import TaskListComponent from './components/container/task_list';
 
 function App() {
   return (
@@ -10,7 +11,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         {/* My component greetings.jsx */}
         {/* <Greetings name="Pedro"></Greetings> */}
-        <GreetingFunction name="Pedro"></GreetingFunction>
+        {/* Functional component example */}
+        {/* <GreetingFunction name="Pedro"></GreetingFunction> */}
+        {/* Task listing component */}
+        <TaskListComponent></TaskListComponent>
       </header>
     </div>
   );
