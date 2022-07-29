@@ -29,7 +29,7 @@ const Ejemplo2 = () => {
 
 
     /**
-     *  Trabajando con useEffect
+     * * Trabajando con useEffect
      */
 
     /**
